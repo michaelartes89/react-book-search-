@@ -1,0 +1,11 @@
+  
+.navbar-item {
+    color: #ffffff;
+    margin-right: 15px;
+  }
+  
+  .navbar-item:hover {
+    color: #000000;
+    text-decoration: none;
+    
+  }
