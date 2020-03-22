@@ -5,7 +5,7 @@ import Nav from "../components/Nav"
 import API from "../utils/API"
 import Jumbotron from "../components/Jumbotron";
 import  { Col, Row, Container }  from "../components/Grid";
-import { BookList, BookListItem } from "../components/BookList";
+import { BookList, BookListItem } from "../components/SavedList";
 
 
 
