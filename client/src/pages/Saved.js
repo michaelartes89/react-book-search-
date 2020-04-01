@@ -25,10 +25,10 @@ export default function SavedPage() {
         .catch(err => console.log(err))
     }
 
-    const deleteBook = (id) => {
+     const deleteBook = (id) => {
         API.deleteBook(id)
-        .then(res => getBooksDB()
-        .cath(err => console.log(err)))
+      .then(res => getBooksDB())
+     .catch(err => console.log(err))
     }
     
     return (
