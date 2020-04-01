@@ -35,10 +35,10 @@ export function BookListItem(props) {
           <Col size ="xs-2-sm-1">
               <Button
                 className={"btn btn-primary"}
-                click={props.click(props.id)}
+                click={props.click}
                 value={props.id}
               >
-                  Save
+                  Delete
               </Button>
           </Col>
           
